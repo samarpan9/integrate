@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0% 10%;
+  margin: 0% auto;
+  min-width: 360px;
+  max-width: 1440px;
+  font-family: "Open Sans", sans-serif;
+  background-color: red;
+}
+.details-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}

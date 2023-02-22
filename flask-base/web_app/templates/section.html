@@ -1,0 +1,43 @@
+{% extends 'navbar.html' %}
+{% block title %}Sections{% endblock %}
+{% block content %}
+
+    <section class="card-section">
+        <div class="row">
+        <h3>Upcoming events</h3>
+        <a href="./pages/Form.html" class="link-btn">
+            <i class="fa-solid fa-plus icon-space"></i>Add Events</a
+        >
+        </div>
+        <div class="filter-row">
+        <a href="#" class="filter-childs">Technology</a>
+        <a href="#" class="filter-childs">Technology</a>
+        <a href="#" class="filter-childs">Technology</a>
+        <a href="#" class="filter-childs">Technology</a>
+        </div>
+        <div class="card-container">
+        <div class="card">
+            <img
+            class="cover-pic"
+            src="https://images.pexels.com/photos/2608517/pexels-photo-2608517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            />
+
+            <h4 class="location">
+            <i class="fa-solid fa-location-dot icon-space"></i>Putalisadak
+            </h4>
+
+            <a href="./pages/Detail.html" class="event-name-link"
+            ><h2 class="event-name">Hackathon</h2></a
+            >
+            <h4 class="company-name">Security Pal</h4>
+
+            <div class="date-wrapper">
+            <p class="date">Date: 5th Feb 2023</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+{% endblock %}
+
